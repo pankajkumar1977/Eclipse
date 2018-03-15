@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:globalalieans xmlns:tns="http://www.telusko.com/Aliean" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.telusko.com/Aliean Aliean.xsd ">
+  <tns:aliean aid="A1">
+    <tns:name>pankaj</tns:name>
+    <tns:salary>3000</tns:salary>
+  </tns:aliean>
+  
+  <tns:aliean aid="A2">
+    <tns:name>manoj</tns:name>
+    <tns:salary>3000</tns:salary>
+  </tns:aliean>
+  <tns:aliean aid="A3">
+    <tns:name>manoj</tns:name>
+    <tns:salary>10000</tns:salary>
+  </tns:aliean>
+  
+</tns:globalalieans>

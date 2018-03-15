@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.telusko.com/Aliean" 
+xmlns:tns="http://www.telusko.com/Aliean" 
+elementFormDefault="qualified">
+
+<complexType name="alieanstype">
+
+<sequence>
+<element name="aliean" type="tns:alieantype" maxOccurs="3" minOccurs="1"></element>
+
+</sequence>
+</complexType>
+
+<complexType name="alieantype">
+
+<sequence>
+
+<element name="name" type="string"></element>
+<element name="salary" type="tns:mySal"></element>
+</sequence>
+<attribute name="aid" type="ID" use="required"></attribute>
+</complexType>
+<element name="globalalieans" type="tns:alieanstype"/>
+<simpleType name="mySal">
+<restriction base="integer">
+<minInclusive value="1000"></minInclusive>
+<maxInclusive value="10000"></maxInclusive>
+</restriction>
+
+</simpleType>
+</schema>

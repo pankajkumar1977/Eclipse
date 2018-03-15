@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alieans SYSTEM "Alieans.dtd">
+
+<alieans>
+
+<aliean aid="A1" lang="java">
+<name>pankaj</name>
+<salary>5000</salary>
+</aliean>
+
+<aliean aid="A2" lang="python">
+<name>pankaj</name>
+<salary>12</salary>
+</aliean>
+</alieans>
